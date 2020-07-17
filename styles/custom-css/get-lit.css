@@ -815,7 +815,7 @@ body {
 }
 .footer-row-two {
     display: -webkit-box;
-    width: 400px;
+    width: unset;
     max-width: unset;
     margin: 0 auto;
 }
