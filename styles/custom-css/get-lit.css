@@ -106,12 +106,12 @@ h2 {
     font-weight: 500;
     font-family: Raleway;
     font-style: normal;
-    line-height: 43px;
+    line-height: 40px;
     padding-bottom: 16px;
 }
 
   h1 {
-      font-size: 48px;
+      font-size: 42px;
       font-family: Raleway;
       font-weight: 800;
       font-style: normal;
@@ -119,6 +119,12 @@ h2 {
       line-height: 43px;
       padding-bottom: 3rem;
   }
+
+  p {
+    line-height: 2em;
+    margin: 0 0 20px;
+    text-align: unset !important;
+}
 
   .col-md-12 > p {
      font-family: Raleway;
@@ -638,6 +644,7 @@ body {
         flex: 0 0 25%;
         max-width: 25%;
         padding: 0 4px;
+        padding-left: 8px;
     }
 
   .circle {
@@ -680,6 +687,10 @@ body {
 
     .footer-coming-soon {
         max-width: 70%;
+    }
+    .col-8 {
+        flex: 0 0 65%;
+        max-width: 65%;
     }
     
 }
@@ -842,7 +853,7 @@ body {
 .footer-row {
     flex: 0 0 100%;
     max-width: 100%;
-    padding-left: 1rem;
+    padding-left: 0;
 }
 .footer-bottom-text {
     font-size: 14px;
@@ -854,11 +865,13 @@ body {
 
 
 .col-sm-3.col-3 {
+    padding: 0 30px;
+}
+.col-8 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 15%;
-    flex: 0 0 15%;
-    max-width: 5%;
-    padding: 0 34px;
+    -ms-flex: 0 0 66.66667%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
    
 }
