@@ -474,7 +474,6 @@ body {
 
     .footer.container-fluid > img {
         display: inline-flex;
-        place-content: flex-end;
         padding-right: 1.7rem;
     }
 
