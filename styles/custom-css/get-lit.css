@@ -820,11 +820,7 @@ body {
     margin: 0 auto;
 }
 .reduce-width-four > .col-4 > img {
-    width: 271px;
-    height: 530.51px;
-    max-height: 50vw;
-    padding-right: 2rem;
-    margin-bottom: 3rem;
+    display: none;
 }
 
 .bg-shadow {
