@@ -8,8 +8,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles/bootstrap-css/bootstrap.css">
-  <link rel="stylesheet" href="./styles/custom-css/get-lit.css">
-
+  <link rel="stylesheet" href="/OwlCarousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="/OwlCarousel/dist/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="/styles/custom-css/get-lit.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
@@ -23,15 +24,18 @@
         <!-- Navigation bar start here -->
         <nav class="navbar navbar-expand-lg navbar-light ">
           <div class="container-fluid d-flex ">
-            <a class="navbar-brand" href="index.html">
-              <img src="/img/getlit-brand.svg" width="30" height="30" alt="" class="d-inline-block align-top" style="background-color: white; border-radius: 50%;"/>
-              <span style="color: white;">Get Lit</span>
+            <a class="navbar-brand" href="">
+              <img src="/img/getlit-brand.svg" width="48" height="48" alt="" class="d-inline-block align-top" style="background-color: white; border-radius: 50%;"/>
+              <span id="brand-name" style="color: white;">Get Lit</span>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> -->
+
             <!-- Navigation List -->
-            <div class="collapse navbar-collapse custom-nav" id="navbarTogglerDemo02">
+
+            <!-- <div class="collapse navbar-collapse custom-nav" id="navbarTogglerDemo02">
               <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
                 <li class="nav-item">
                   <a class="nav-link px-4 font-weight-bold" href="#">Home</a>
@@ -43,7 +47,8 @@
                   <a class="nav-link px-4 font-weight-bold" href="about-us.html">Grooves</a>
                 </li>
               </ul>
-            </div>
+            </div> -->
+
           </div>
         </nav>
         <!-- ********** Header Finish here ******** -->
@@ -54,19 +59,19 @@
                   <div class="row">
                       <div class="col-md-12">
                           <h2 class="text-left pb-1 pt-5" style="color: white;">The Very Best Strains,</h2>
-                          <h1 class="display-5 media pb-5" style="color: white;">Right At Your Doorstep.</h1>
+                          <h1 class=" media pb-5" style="color: white;">Right At Your Doorstep.</h1>
                           <p style="color: white">Find the closest, trusted cannabis dealers with the very best strains in your area, and get it delivered at your doorstep.</p>
                       </div>
-                      <br> 
-                      <div class="mx-auto sub-header-col-left">
-                        <h5 class="">Coming Soon!</h5>
+                      <div class="sub-header-col-left">
+                        <p class="">Coming Soon!</p>
                         <form>
-                          <div class="form-group mx-auto">
+                          <div class="form-group input-group">
                             <!-- <label for="exampleInputEmail1">Email address</label> -->
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email" style="background-color: white;">
                             <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                            <div class="">
+                            <button type="submit" class="btn input-group-append btn-primary">Notify Me When This Goes live!</button>
                           </div>
-                          <button type="submit" class="btn btn-primary">Notify Me When This Goes live!</button>
                         </form>
                       </div> 
                   </div>
@@ -88,19 +93,163 @@
       <div class="row text-center">
           <div class="col-12">
               <h5 class="display-4">How it works</h5>
+              <p class="lead col-md-8 text-center mx-auto" >The Get Lit App connects you to the very best dealers of every kind of starains you can think of. ITt brings that high right at your doorstep with just an order of the App. Connecting you to only the most trusted plugs, your area has got to offer. Sound litty right?.</p>
           </div>
       </div>
-      </div>
+    </div>
+    <!--- One Colum Section Ends Here -->
 
-      <!--- One Colum Section Ends Here -->
+    <!--- Three Column Section Starts Here-->
+    <div class="container ">
+      <div class="row text-center d-flex justify-content-center align-items-center">
+          <div class="col-lg-3 col-md-4 h-100">
+              <div class="card">
+                <div class="card-body mx-auto">
+                  <img src="/img/emojileaf.svg" width="50" height="47.11" class="img-fluid">
+                  <h5 class="card-title">Wide Range Of Strains to Pick From</h5>
+                  <p class="card-text">Get to pick any bud of choice, be it Indica, Sativa and Hybrid.</p>
+                </div>
+              </div> 
+          </div>
+          <div class="col-lg-3 col-md-4 h-100">
+              <div class="card">
+                <div class="card-body mx-auto">
+                  <img src="/img/emojihand.svg" width="34.38" height="47.13" class="img-fluid">
+                  <h5 class="card-title">Choose Drop Location And Time</h5>
+                  <p class="card-text">Get to the a convinent place and time for pickup.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 h-100">
+              <div class="card">
+                <div class="card-body mx-auto">
+                  <img src="/img/emojitruck.svg" width="63" height="63" class="img-fluid">
+                  <h5 class="card-title">Speedy Delivery</h5>
+                  <p class="card-text">Get your Kush delivered on time with ease</p>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <!--- Three Column Section Ends Here-->
+
+
+    <!--- Carousel Section Starts Here -->
+
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img src="/img/mobile1.svg" alt="mobile1" class="img-fluid">
+      </div>
+      <div class="item">
+        <img src="/img/mobile2.svg" alt="mobile2" class="img-fluid">
+      </div>
+      <div class="item">
+        <img src="/img/mobile3.svg" alt="mobile3" class="img-fluid">
+      </div>
+      <div class="item">
+        <img src="/img/mobile4.svg" alt="mobile4" class="img-fluid">
+      </div>
+      <div class="item">
+        <img src="/img/mobile5.svg" alt="mobile5" class="img-fluid">
+      </div>
+      <div class="item">
+        <img src="/img/mobile6.svg" alt="mobile6" class="img-fluid">
+      </div>
+    </div>
+
+    <!--- Carousel Section Ends Here -->
+  
+
+    <!--- A Second One Colum Section Starts Here -->
+    <!-- <div class="container">
+      <div class="row text-left reduce-width-four">
+          <div class="col-12">
+              <h5 class="display-4">Coming Soon!</h5>
+          </div>
+      </div>
+    </div> -->
+    <!--- A Second One Colum Section Ends Here -->
+
+    <!--- Four Column Section Starts Here-->
+    
+                    
+    <div class="container ">
+      <div class="row text-center d-flex justify-content-left align-items-left reduce-width-four">
+        <div class="col-4">
+          <img src="/img/mobile1.svg" alt="">
+          <div class="bg-shadow"></div>
+        </div>
+        <div class="row footer-row-two">
+          <div class="footer-coming-soon col-12">
+            <h5 class="h5-coming-soon">Coming Soon!</h5>
+          </div>
+          <div class="row footer-row">
+          <div class="col-sm-3 col-3">
+              <div class="circle">
+                <span id="days">120</span>
+              </div> 
+              <div id="sub-days">
+                Days
+              </div>
+          </div>
+          <div class="col-sm-3 col-3">
+              <div class="circle">
+                <span id="hours">48</span>
+              </div> 
+              <div id="sub-days">
+                Hours
+              </div>
+          </div>
+          <div class="col-sm-3 col-3">
+              <div class="circle">
+                <span id="mins">30</span>
+              </div> 
+              <div id="sub-days">
+                Minutes
+              </div>
+          </div>
+          <div class="col-sm-3 col-3">
+              <div class="circle">
+                <span id="secs">50</span>
+              </div> 
+              <div id="sub-days">
+                Seconds
+            </div>
+          </div>
+          <div class="row text-left reduce-width-four">
+            <div class="col-12">
+                <p class="footer-bottom-text">Get To Know When The Lituation Begins.</p>
+            </div>
+            
+        <form>
+          <div class="form-group mx-auto input-group">
+            <!-- <label for="exampleInputEmail1">Email address</label> -->
+            <input type="email" class="form-control second" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email" style="background-color: white;">
+            <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            <div class="">
+            <button type="submit" class="btn btn-success-second">Get Me Lit!</button>
+          </div>
+        </form>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!--- Four Column Section Ends Here-->
+
       
   <!-- Footer -->
-  <footer class="footer container-fluid bg-fml-primary">
+  <footer class="footer container-fluid">
+    <img src="/img/facebook.svg" alt="">
+    <img src="/img/intsagram.svg" alt="intsagram">
+    <img src="/img/twitter.svg" alt="twitter">
   </footer>
 
   <script src="/js/bootstrap-js/popper.js"></script>
   <script src="/js/bootstrap-js/jquery.js"></script>
   <script src="/js/bootstrap-js/bootstrap.js"></script>
+  <script src="/OwlCarousel/docs/assets/vendors/jquery.min.js"></script>
+  <script src="/OwlCarousel/dist/owl.carousel.js"></script>
   <script src="/js/custom-js/get-lit.js"></script>
 
 </body>
